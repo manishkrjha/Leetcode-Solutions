@@ -8,9 +8,9 @@ public:
         }
         
         for(int i=0;i<nums.size();i++){
-            int right = rs-ls-nums[i];
+            rs -= nums[i];
             
-            if(ls == right){
+            if(ls == rs){
                 return i;
             }
             
