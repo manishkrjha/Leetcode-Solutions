@@ -10,12 +10,12 @@ public:
                 if(i<s.size()/2){
                     left++;
                 }else{
-                    right++;
+                    left--;
                 }
                 
             }
         }
         
-        return (left==right);
+        return (left==0);
     }
 };
